@@ -10,15 +10,19 @@ var arrayTasks = {
 	},
 
 	square: function (arr) {
-		
+
 		const square = arr.map(num => num * num);
 //  => is a shorthand method call for an object that doesn't have this
 			return square;
 	},
 
-	// sum: function (arr) {
-
-	// },
+	sum: function (arr) {
+		let sum = 0
+		arr.forEach(function(number){
+			sum += number;
+		})
+		return sum;
+	},
 
 	// findDuplicates: function (arr) {
 
