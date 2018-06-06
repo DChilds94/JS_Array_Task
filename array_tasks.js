@@ -9,9 +9,12 @@ var arrayTasks = {
 			return arr;
 	},
 
-	// square: function (arr) {
-
-	// },
+	square: function (arr) {
+		
+		const square = arr.map(num => num * num);
+//  => is a shorthand method call for an object that doesn't have this
+			return square;
+	},
 
 	// sum: function (arr) {
 
