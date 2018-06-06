@@ -24,12 +24,23 @@ var arrayTasks = {
 		return sum;
 	},
 
-	// findDuplicates: function (arr) {
-
-	// },
+	findDuplicates: function (arr) {
+		const  newArr = [];
+		for (num of arr) {
+			// if there are more than one objects in the array that have the same value
+			// remove from the array and
+			if (num[i] > 1 ) {
+			// then push that object into the newaArr
+			arr.splice(num);
+			newArr.push(num);
+		}
+		}
+		return newArr;
+	},
+	// I have no idea
 
 	// removeAndClone: function (arr, valueToRemove) {
-
+	//
 	// },
 
 	// findIndexesOf: function (arr, itemToFind) {
